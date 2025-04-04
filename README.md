@@ -1,14 +1,6 @@
-#README
+# Configurer les opérations de sécurité SIEM à l’aide de Microsoft Sentinel
 
-We've turned off the ability to report issues directly on this repo and do not monitor PRs.
-
-Provide feedback here: https://aka.ms/provide-feedback
-
-Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
-
-# APL-5001 : Configurer les opérations de sécurité SIEM à l’aide de Microsoft Sentinel
-
-- **[Lien vers les labos (format HTML)]( https://microsoftlearning.github.io/APL-5001-configure-siem-security-operations-using-microsoft-sentinel/)**
+- **[Lien vers les labos (format HTML)]( https://microsoftlearning.github.io/configure-siem-security-operations-using-microsoft-sentinel/)**
 
 - **Êtes-vous MCT ?** - Consultez notre [Guide de l’utilisateur GitHub pour MCT](https://microsoftlearning.github.io/MCT-User-Guide/)
 
@@ -18,9 +10,9 @@ Or, if you are a trainer with a microsoft.com email address, please create a tic
 
 - Nous espérons que cela apportera comme jamais auparavant une touche collaborative aux labos. Si vous constatez qu’un service Microsoft tel qu’Azure ou Microsoft 365 a évolué à l’occasion d’une livraison en direct, n’hésitez pas à y apporter une amélioration directement dans la source du labo. Aidez vos collègues MCT.
 
-## Comment puis-je utiliser ce référentiel ?
+## Comment dois-je utiliser ce référentiel ?
 
-- Les supports de formation de l’instructeur sont votre principale source d’apprentissage du contenu du cours.
+- Les supports de formation de l’instructeur restent votre principale source d’apprentissage du contenu du cours.
 
 - Ces fichiers sur GitHub sont conçus pour être utilisés dans les labos de cours, à l’aide de l’environnement de labo hébergé.
 
@@ -32,6 +24,6 @@ Or, if you are a trainer with a microsoft.com email address, please create a tic
 
 ## Comment puis-je contribuer ?
 
-- Tous les MCT (Microsoft Certified Trainer) peuvent soumettre une demande de tirage (pull request) au code ou au contenu dans le référentiel GitHub. Microsoft et l’auteur du cours vont ensuite trier et inclure les changements de contenu et de code de laboratoire si nécessaire.
+- Tous les MCT(Microsoft Certified Trainers) peuvent soumettre une demande de tirage (pull request) au code ou au contenu dans le référentiel GitHub. Microsoft et l’auteur du cours vont trier et inclure les changements de contenu et de code de labo, le cas échéant.
 
 - Vous pouvez soumettre des bogues, des changements, des améliorations et des idées. Vous avez découvert une nouvelle fonctionnalité Azure ou Microsoft 365 avant nous ? Envoyez une nouvelle démonstration !
