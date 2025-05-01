@@ -92,12 +92,12 @@ Créez une règle d’analyse basée sur le modèle Nombre suspect d’activité
      |Paramètre |Valeur|
      |---|---|
      |Exécuter la requête toutes les|1 heure|
-     |Rechercher les données des dernières|1 heure|
+     |Rechercher les données des derniers|1 heure|
 
   1. Sélectionnez **Suivant : Paramètres d’incident >**.
   1. Conservez les valeurs par défaut et sélectionnez **Suivant : Réponse automatisée >**.
   1. Conservez les valeurs par défaut et sélectionnez **Suivant : Vérifier et créer >**.
-  1. Sélectionnez **Enregistrer**.
+  1. Cliquez sur **Enregistrer**.
 
 ### Tâche 5 : S’assurer que le classeur Activité Azure est disponible dans Mes classeurs
 
