@@ -62,7 +62,7 @@ Attribuer un rôle Microsoft Sentinel à une utilisation. En savoir plus sur les
   1. Sélectionnez **+ Sélectionner des membres**.
   1. Recherchez le `Operator1` attribué dans vos instructions de labo `(operator1-XXXXXXXXX@LODSPRODMCA.onmicrosoft.com)`.
   1. Sélectionnez `user icon`.
-  1. Cliquez sur **Sélectionner**.
+  1. Sélectionnez **Sélectionner**.
   1. Sélectionnez « Vérifier + attribuer ».
   1. Sélectionnez « Vérifier + attribuer ».
 

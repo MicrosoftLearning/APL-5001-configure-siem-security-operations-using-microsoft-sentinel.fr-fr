@@ -30,7 +30,7 @@ Utilisez des simulations d’attaques pour tester les règles d’analyse dans M
 
 1. Localisez et sélectionnez la machine virtuelle **vm1** dans Azure, puis faites défiler les éléments de menu jusqu’à **Opérations** et sélectionnez **Exécuter la commande**.
 1. Dans le volet **Exécuter la commande**, sélectionnez **RunPowerShellScript**.
-1. Copiez les commandes ci-dessous pour simuler la création d’un compte Admin dans le formulaire `PowerShell Script` et sélectionnez **Exécuter**.
+1. Copiez les commandes ci-dessous pour simuler la création d’un compte Administrateur dans le formulaire `PowerShell Script`, et sélectionnez **Exécuter**.
 
     ```CommandPrompt
     net user theusernametoadd /add
@@ -38,7 +38,7 @@ Utilisez des simulations d’attaques pour tester les règles d’analyse dans M
     net localgroup administrators theusernametoadd /add
     ```
 
->**Remarque** : assurez-vous qu’il n’y a qu’une seule commande par ligne et que vous pouvez réexécuter les commandes en changeant de nom d’utilisateur.
+>**Remarque** : vérifiez qu’il n’existe qu’une seule commande par ligne et que vous pouvez réexécuter les commandes en modifiant le nom d’utilisateur.
 
 1. Dans la fenêtre `Output`, vous devriez voir `The command completed successfully` trois fois.
 
@@ -47,7 +47,7 @@ Utilisez des simulations d’attaques pour tester les règles d’analyse dans M
 Vérifiez qu’un incident est créé et qu’il correspond aux critères de la règle d’analyse et de l’automatisation. En savoir plus sur la [gestion des incidents dans Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/incident-investigation).
 
 1. Dans `Microsoft Sentinel`, accédez à la section de menu `Threat management` et sélectionnez **Incidents**
-1. Vous devriez voir un incident qui correspond à `Severity` et `Title` que vous avez configurés dans la règle `NRT` que vous avez créée.
-1. Sélectionnez le `Incident` et le volet `detail` s’ouvre.
-1. L’affectation `Owner` doit être **Operator1**, créée à partir de `Automation rule`, et `Tactics and techniques` doit être **Réaffection de privilèges** (à partir de la règle `NRT`).
+1. Vous devez voir un incident qui correspond à la `Severity` et au `Title` définis dans la règle `NRT` que vous avez créée.
+1. Sélectionnez l’`Incident` pour ouvrir le volet `detail`.
+1. L’attribution `Owner` doit être **Opérateur1**, créée à partir de la `Automation rule` et les `Tactics and techniques` doivent être **Élévation des privilèges** (à partir de la règle `NRT`).
 1. Sélectionnez **Afficher tous les détail**s pour voir toutes les capacités `Incident management` et `Incident actions`.
